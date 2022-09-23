@@ -5,38 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meu Perfil</title>
+
+    <link rel="stylesheet" href="./styles.css" />
   </head>
-  <ul>
-    <li>
-      <a href="index.html"> Home </a>
-    </li>
-    <li>
-      <a href="contato.html"> Contato </a>
-    </li>
-  </ul>
+  <nav>
+    <h1>Hello!!</h1>
+    <ul>
+      <li>
+        <a href="index.html"> Home </a>
+      </li>
+      <li>
+        <a href="contato.html"> Contato </a>
+      </li>
+    </ul>
+  </nav>
   <body>
     <h1>Sobre mim, Luca</h1>
-
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure cupiditate
-      reiciendis amet nemo recusandae nulla tempore non quos! Recusandae vero
-      iure voluptate dignissimos cupiditate totam libero? Amet quis magni quae.
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, sapiente
-      assumenda officia, quaerat ducimus amet vel doloremque maxime, minima
-      aperiam et quasi! Repudiandae exercitationem hic incidunt error autem
-      ipsum laboriosam!
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio labore
-      temporibus porro explicabo praesentium soluta ullam, quidem provident
-      voluptatum iure sunt beatae vitae, a pariatur exercitationem modi aliquid
-      hic nam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
-      earum commodi iusto perspiciatis repellat fugit corrupti at ut, doloribus
-      in eius cumque dolore officia fuga esse, aspernatur quidem ad voluptatum.
-    </p>
-
-    <img src="/assets/eu.jpg" alt="Foto do criador do conteúdo" />
-
+    <div class="perfil">
+      <article>
+        <p class="primeiro" id="texto">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
+          cupiditate reiciendis amet nemo recusandae nulla tempore non quos!
+          Recusandae vero iure voluptate dignissimos cupiditate totam libero?
+          Amet quis magni quae. Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Nisi, sapiente assumenda officia, quaerat ducimus
+          amet vel doloremque maxime, minima aperiam et quasi! Repudiandae
+          exercitationem hic incidunt error autem ipsum laboriosam!
+        </p>
+        <p class="segundo">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio labore
+          temporibus porro explicabo praesentium soluta ullam, quidem provident
+          voluptatum iure sunt beatae vitae, a pariatur exercitationem modi
+          aliquid hic nam? Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Fugiat earum commodi iusto perspiciatis repellat fugit corrupti
+          at ut, doloribus in eius cumque dolore officia fuga esse, aspernatur
+          quidem ad voluptatum.
+        </p>
+      </article>
+      <img
+        src="/assets/eu.jpg"
+        alt="Foto do criador do conteúdo"
+        class="foto"
+      />
+    </div>
     <h2>Meu vídeo favorito:</h2>
     <iframe
       width="560"
