@@ -4,23 +4,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Meu Perfil</title>
-
-    <link rel="stylesheet" href="./styles.css" />
+    <title>My profile</title>
+    <link rel="icon" href="favicon.ico?v=2">
+    <link rel="stylesheet" href="/assets/css/styles.css" />
   </head>
-  <nav>
-    <h1>Hello!!</h1>
-    <ul>
+  <nav class="nav1">
+    <h1 class="h1sections">Hello!!</h1>
+    <ul id="menu">
       <li>
         <a href="index.html"> Home </a>
       </li>
       <li>
-        <a href="contato.html"> Contato </a>
+        <a href="contato.html"> Contact </a>
       </li>
     </ul>
   </nav>
+  <hr>
   <body>
-    <h1>Sobre mim, Luca</h1>
+    <h1 class="h1sections">Hey i am Luca!</h1>
     <div class="perfil">
       <article>
         <p class="primeiro" id="texto">
@@ -48,16 +49,24 @@
         class="foto"
       />
     </div>
-    <h2>Meu vídeo favorito:</h2>
-    <iframe
-      width="560"
-      height="315"
-      src="https://www.youtube.com/watch?v=UVtgFN3K6kE"
-      title="YouTube video player"
-      frameborder="2"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
-    >
-    </iframe>
+    <hr>
+    <h2 class="text primeiro">My favorite song:</h2>
+    <div class = "videoyt text">
+    <iframe width="450" height="360" src="https://www.youtube.com/embed/ba7mB8oueCY" title="Post Malone - "Goodbyes" ft. Young Thug (Rated R)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+  <hr>
+
+  <footer>
+    <div class="videoyt">
+      <a href="https://www.linkedin.com/in/lucaandrey/" target="_blank">
+      <img src="assets/linkedin.png" alt="linkedin logo" class="social-img">
+    </a>
+    <a href="https://www.instagram.com/lucaandrey/" target="_blank">
+      <img src="assets/instagram.png" alt="instagram logo" class="social-img">
+    </a>
+    </div>
+    <p class="videoyt cor">Luca Costa &copy;</p>
+  </footer>
   </body>
 </html>
